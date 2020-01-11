@@ -11,6 +11,23 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-dark bg-primary mb-3">
+    <div class="container">
+      <a href="#" class="navbar-brand">Github Finder</a>
+    </div>
+  </nav>
+  <div class="container searchContainer">
+    <div class="search card card-body">
+      <h1>Search GitHub Users</h1>
+      <p class="lead">Enter a username to fetch a user profile and repos</p>
+      <input type="text" id="searchUser" class="form-control" placeholder="GitHub Username...">
+    </div>
+    <div id="profile"></div>
+  </div>
+
+  <footer class="mt-5 p-3 text-center bg-light">
+    Github Finder &copy;
+  </footer>
 
   <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
